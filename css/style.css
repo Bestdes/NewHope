@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ffd677;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: "Merienda", cursive;
+  text-rendering: optimizeLegibility;
+}
+
+/* --------------------------------- */
+/* Reusable Components */
+/* --------------------------------- */
+
+.row {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-family: "Merienda", cursive;
+}
+
+h1 {
+  margin: 0;
+  color: brown;
+  font-size: 400%;
+  word-spacing: 4px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 400%;
+}
+
+.fancyFont {
+  font-family: "Alex Brush", cursive;
+  color: Yellow;
+  font-size: 700%;
+}
+
+.centeredText {
+  text-align: center;
+}
+
+/* --------------------------------- */
+/* Header Components */
+/* --------------------------------- */
+
+header {
+  background-image: radial-gradient(
+      transparent 0%,
+      rgba(233, 231, 124, 0),
+      rgba(247, 145, 12, 0.699)
+    ),
+    url(/images/mood4.jpg);
+  height: 100vh;
+  background-position: center;
+  text-align: center;
+}
+
+header h3 {
+  padding-top: 20px;
+}
+
+header hr {
+  width: 75%;
+}
+
+/* --------------------------------- */
+/* Button Components */
+/* --------------------------------- */
+
+/* --------------------------------- */
+/* Jumbotron Components */
+/* --------------------------------- */
+
+.jumboStyles {
+  width: 75%;
+  background-color: white;
+}
+
+/* --------------------------------- */
+/* Navigation Components */
+/* --------------------------------- */
+
+.main-nav {
+  text-align: center;
+  list-style: none;
+  padding-top: 20px;
+}
+
+.main-nav li {
+  display: inline-block;
+}
+
+.main-nav li a {
+  color: white;
+}
+
+/* --------------------------------- */
+/* Footer Components */
+/* --------------------------------- */
+
+footer {
+  background-color: #ffd677;
+  text-align: center;
+}
+
+footer p {
+  padding: 40px 50px 20px 50px;
+}
+
+/* , url(/images/mood2.jpg), url(/images/mood3.jpg),
+    url(/images/mood4.jpg), url(/images/mood5.jpg) */ ;
